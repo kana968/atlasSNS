@@ -18,9 +18,9 @@
 
 {{ Form::submit('登録') }}
 
-<p><a href="login">ログイン画面へ戻る</a></p>
 
 {!! Form::close() !!}
+<p><a href="login">ログイン画面へ戻る</a></p>
 
 
 </x-logout-layout>

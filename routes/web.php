@@ -23,6 +23,8 @@ use Illuminate\Support\Facades\Route;
 require __DIR__ . '/auth.php';
 
 Route::get('top', [PostsController::class, 'index']);
+Route::post('post', [PostsController::class, 'post']);
+// index.blade　（※blade）の　method　と同じにしないといけない
 
 Route::get('profile', [ProfileController::class, 'profile']);
 
